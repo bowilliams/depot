@@ -1,19 +1,19 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/Fixtures.html
 
 one:
-  title: MyString
+  title: MyString1234
   description: MyText
   image_url: MyString
   price: 9.99
 
 two:
-  title: MyString
+  title: MyString1234
   description: MyText
   image_url: MyString
   price: 9.99
 
 ruby:
-  title: Programming Ruby 1.0
+  title: Programming Ruby 1.9
   description: Ruby rocks!
   price: 19.99
   image_url: ruby.png
