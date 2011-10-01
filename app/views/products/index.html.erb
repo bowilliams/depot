@@ -3,7 +3,7 @@
 <table>
 <% @products.each do |product| %>
   <tr class="<%= cycle('list_line_odd','list_line_even')%>">
-    <td>
+   <td>
       <%= image_tag(product.image_url, class: 'list_image') %>
     </td>
     

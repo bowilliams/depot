@@ -49,4 +49,13 @@ class ProductTest < ActiveSupport::TestCase
     assert_equal I18n.translate('activerecord.errors.messages.taken'),
                  product.errors[:title].join('; ')
   end
+  
+#  test "cannot destroy product with line items" do
+#    product = Product.new(title: "Hi Hi Hi HIIII!",
+#                          description: products(:ruby).description,
+#                          price: products(:ruby).price,
+#                          image_url: products(:ruby).image_url)
+#    cart = Cart.new
+#    cart.line_items
+#
 end
